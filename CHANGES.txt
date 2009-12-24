@@ -1,0 +1,20 @@
+=======
+CHANGES
+=======
+
+1.0.2 (2009-03-12)
+------------------
+
+- Remove all proxies before trying to query int id for object.
+
+
+1.0.1 (2008-03-25)
+------------------
+
+- Code moved to svn.zope.org
+
+
+1.0.0 (2008-01-10)
+------------------
+
+- Initial release

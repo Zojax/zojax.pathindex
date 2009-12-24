@@ -1,0 +1,20 @@
+<configure 
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:browser="http://namespaces.zope.org/browser">
+
+  <class class=".index.PathIndex">
+    <factory id="zojax.pathindex.PathIndex" title="Path Index" />
+
+    <require
+       permission="zope.ManageServices"
+       interface=".interfaces.ICatalogIndex
+		  zope.index.interfaces.IStatistics" />
+  </class>
+
+  <browser:addMenuItem
+     title="Path Index"
+     description="Index object path"
+     class=".index.PathIndex"
+     permission="zope.ManageServices" />
+
+</configure>
