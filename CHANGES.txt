@@ -1,20 +1,8 @@
-=======
-CHANGES
-=======
-
-1.0.2 (2009-03-12)
+1.0.2 (Unreleased)
 ------------------
 
-- Remove all proxies before trying to query int id for object.
 
-
-1.0.1 (2008-03-25)
+1.0.1 (2010-01-19)
 ------------------
 
-- Code moved to svn.zope.org
-
-
-1.0.0 (2008-01-10)
-------------------
-
-- Initial release
+- zojax initial release
